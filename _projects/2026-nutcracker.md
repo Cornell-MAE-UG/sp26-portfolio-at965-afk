@@ -1,3 +1,9 @@
+---
+layout: project
+title: Nutcracker Design
+permalink: /projects/2026-nutcracker/
+---
+
 **Nutcracker Design**
 
 **Obective:**
