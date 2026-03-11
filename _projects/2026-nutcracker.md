@@ -30,7 +30,7 @@ Therefore the required handle length is approximately 13cm.
 **Diagram of nut cracker design:**
 Pivot located at the hinge. Nut positioned 2.5 cm from the pivot. Human force applied at the handles. Handle length ≈ 13 cm.
 
-![Nutcracker diagram](/assets/images/nutcracker-diagram.jpg)
+![Nutcracker diagram]({{ "/assets/images/nutcracker-diagram.jpg" | relative_url }})
 
 **Discussion:**
 Although the lever provides the required mechanical advantage, the design presents usability concerns. The calculated handle spacing is 13 cm, which may be too wide for the average human hand to grip comfortably.
