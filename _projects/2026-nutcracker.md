@@ -1,3 +1,10 @@
+---
+layout: project
+title: Nutcracker Design
+description: Design of a lever-style nutcracker for cracking macadamia nuts
+technologies: [Mechanical Engineering, Lever Design]
+---
+
 **Nutcracker Design**
 
 **Obective:**
