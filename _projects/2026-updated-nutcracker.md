@@ -52,7 +52,7 @@ Actuator: x = 13 cm, 200 N
 
 Shear force is constant between applied forces and changes magnitude at x = 2.5 cm (nut) and x = 13 cm (actuator).   
 
-Using beam theory EIy′′=M(x). Integrate twice.   
+Using EIy′′=M(x). Integrate twice.   
 EI(dy/dx) = (R/2)x^2 − (F_nut/2)(x−0.025)^2 + C_1  
 Setting dy/dx = 0: EI(dy/dx) = (R/2)x^2 − (F_nut/2)(x−0.025)^2 + C_1 = 0  
 Solve for x, δ_max occurs at x = 4.5cm from pivot (between nut and actuator)  
