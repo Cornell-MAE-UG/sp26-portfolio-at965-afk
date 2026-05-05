@@ -40,7 +40,7 @@ At x = 13 cm from pivot
 **Solution**
 Loading:
 Pivot reaction R:  x = 0, 902.5 N 
-Nut contact: x = 2.5 cm, 1102.5 N 
+Nut: x = 2.5 cm, 1102.5 N 
 Actuator: x = 13 cm, 200 N 
 
 Shear force is constant between load points, changing sign at x = 2.5 cm.
@@ -49,7 +49,7 @@ Setting dy/dx = 0:
 
 Deflection limit: δ_max < 0.02 × 0.13 = 2.6 mm
 
-Material selected: Aluminum (E = 69 GPa, ρ = 2700 kg/m³)
+Material selected: Aluminum (E = 70 GPa, ρ = 2710 kg/m³)
 Cross-section: Hollow tube 
 
 Required EI from deflection formula (superposition, two point loads):
@@ -57,19 +57,17 @@ EI ≥ 0.0012 N·m² → I ≥ 1.74 × 10⁻¹¹ m⁴
 R ≈ 7.5 mm → OD = 16 mm, ID = 12 mm, wall = 2 mm
 
 I = π(0.008⁴ − 0.006⁴)/4 ≈ 2.20 × 10⁻⁹ m⁴
-EI = 151.8 N·m² >> required 
+EI = 151.8 N·m² >> required!
 δ_max < 2.6 mm 
 
 Mass per handle:
 m = 2700 × π(0.008² − 0.006²) × 0.13 ≈ 31 g
 
 **Diagram of nut cracker design:**
-Pivot located at the hinge. Nut positioned 2.5 cm from the pivot. Human force applied at the handles. Handle length ≈ 13 cm.
-
-[Nutcracker diagram](../assets/images/nutcracker-diagram.jpg)
+[Nutcracker diagram](../assets/images/nutcracker-updated-diagram.jpg)
 
 **Discussion:**
-The actuator removes the sole dependance on grip strength as the input force to crack the nut. But adding any form of electrical component can complicate the design
+The actuator removes the sole dependance on grip strength as the input force to crack the nut. But adding any form of electrical component can complicate the design. 
 
 **Credits:**
 Macadamia nut force data obtained from literature on nut cracking forces. (https://link.springer.com/article/10.1007/s10071-007-0131-2)
