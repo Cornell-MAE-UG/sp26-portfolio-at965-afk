@@ -37,22 +37,24 @@ Force: up to 249 N, exceeds required 200 N input
 Stroke: 2–8 inches, sufficient to close the nut gap
 At x = 13 cm from pivot
 
+Material selected: Aluminum (E = 70 GPa, ρ = 2710 kg/m³) and its light!
+Cross-section: Hollow tube 
+
 **Solution**
-Loading:
+∑M about pivot = 0: (1102.5)(0.025) − (200)(0.13) = R
+Solve for R
+
 Pivot reaction R:  x = 0, 902.5 N 
 Nut: x = 2.5 cm, 1102.5 N 
 Actuator: x = 13 cm, 200 N 
 
 Shear force is constant between load points, changing sign at x = 2.5 cm.
-Setting dy/dx = 0:
+Setting dy/dx = 0: EI(dy/dx) = (R/2)x² − (F_nut/2)(x−0.025)² + C₁ = 0
+Solve for x
 δ_max occurs at x = 4.5cm from pivot (between nut and actuator)
 
 Deflection limit: δ_max < 0.02 × 0.13 = 2.6 mm
-
-Material selected: Aluminum (E = 70 GPa, ρ = 2710 kg/m³)
-Cross-section: Hollow tube 
-
-Required EI from deflection formula (superposition, two point loads):
+δ_max = F·a·b·(L²−b²)^(3/2) / (9EIL√3)
 EI ≥ 0.0012 N·m² → I ≥ 1.74 × 10⁻¹¹ m⁴
 R ≈ 7.5 mm → OD = 16 mm, ID = 12 mm, wall = 2 mm
 
