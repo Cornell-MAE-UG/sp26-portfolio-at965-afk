@@ -23,16 +23,22 @@ b) Choose a “beam” design (cross-section, material) such that the vertical e
 deflection is below 2% of its length and is the most mass-efficient possible.
 c) Present your final design in an image or drawing.
 
+**Assumptions**
+1. Small deflection, "plane sections remain plane"
+2. Pin support as pivot
+3. Free end handles
+4. Uniform cross-section throughout
+
 **Actuator**
 Use PA-MC2 Compact Micro Linear Actuator
 
+Why?
 Force: up to 249 N, exceeds required 200 N input
 Stroke: 2–8 inches, sufficient to close the nut gap
 At x = 13 cm from pivot
 
 **Solution**
-
-Loading
+Loading:
 Pivot reaction R:  x = 0, 902.5 N 
 Nut contact: x = 2.5 cm, 1102.5 N 
 Actuator: x = 13 cm, 200 N 
