@@ -69,9 +69,6 @@ EI = (70×10^9)(2.20×10^−9) = 151.8 N·m^2
 151.8 >> 0.0012   
 m = 2700 · π(0.008^2 − 0.006^2) · 0.13 = 0.031 kg   
 
-**Diagram of nut cracker design:**
-[Nutcracker diagram](../assets/images/nutcracker-updated-diagram.jpg)
-
 **Discussion:**
 The actuator removes the sole dependance on grip strength as the input force to crack the nut. But adding any form of electrical component can complicate the design.   
 
