@@ -3,6 +3,7 @@ layout: project
 title: Updated Nutcracker Design
 description: Updated design of a lever-style nutcracker for cracking macadamia nuts
 technologies: [Mechanical Engineering, Lever Design]
+image: /assets/images/nutcracker-updated-diagram.jpg
 ---
 
 **Nutcracker Design**
