@@ -59,14 +59,15 @@ Solve for x, δ_max occurs at x = 4.5cm from pivot (between nut and actuator)
 
 Deflection limit: δ_max < 0.02 × 0.13 = 2.6 mm
 δ_max < 0.02(0.13) = 0.0026 m
-δ_max = [F a b (L^2 − b^2)^(3/2)] / (9 E I L √3)
-EI ≥ 0.0012 N·m^2
-I ≥ 0.0012 / (70×10^9) = 1.74×10^−11 m^4
-r_o = 0.008 m,  r_i = 0.006 m
-I = (π/4)(0.008^4 − 0.006^4) = 2.20×10^−9 m^4
-EI = (70×10^9)(2.20×10^−9) = 151.8 N·m^2
-151.8 >> 0.0012
-m = 2700 · π(0.008^2 − 0.006^2) · 0.13 = 0.031 kg
+δ_max = [F a b (L^2 − b^2)^(3/2)] / (9 E I L √3) 
+EI ≥ 0.0012 N·m^2 
+I ≥ 0.0012 / (70×10^9) = 1.74×10^−11 m^4 
+r_o = 0.008 m,  r_i = 0.006 m 
+
+I = (π/4)(0.008^4 − 0.006^4) = 2.20×10^−9 m^4 
+EI = (70×10^9)(2.20×10^−9) = 151.8 N·m^2 
+151.8 >> 0.0012 
+m = 2700 · π(0.008^2 − 0.006^2) · 0.13 = 0.031 kg 
 
 **Diagram of nut cracker design:**
 [Nutcracker diagram](../assets/images/nutcracker-updated-diagram.jpg)
