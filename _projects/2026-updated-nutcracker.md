@@ -9,7 +9,7 @@ image: /assets/images/nutcracker-updated-diagram.jpg
 **Nutcracker Design**
 
 **Given:**
-Initially, the handles were considered in your nutcracker design to be rigid. Now, assume the nutcracker handles are no longer rigid. In fact, they are now best described as beams which bend due to the combined action of the forces from the nut and from theactuator.  
+Initially, the handles were considered in your nutcracker design to be rigid. Now, assume the nutcracker handles are no longer rigid. In fact, they are now best described as beams which bend due to the combined action of the forces from the nut and from the actuator.  
 
 Macadamia nut diameter ≈ 2.5.  
 Distance from pivot to nut ≈ 2.5 cm.  
