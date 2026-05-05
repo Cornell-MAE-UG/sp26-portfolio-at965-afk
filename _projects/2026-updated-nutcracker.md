@@ -13,7 +13,7 @@ Initially, the handles were considered in your nutcracker design to be rigid. No
 
 Macadamia nut diameter ≈ 2.5.  
 Distance from pivot to nut ≈ 2.5 cm.  
-Typical maximum human grip strength: 𝐹in ≈ 400N. This force is applied equally to both handles so 200N.   
+Typical maximum human grip strength: Fin ≈ 400N. This force is applied equally to both handles so 200N.   
 Force required to crack a macadamia nut from literature is 225 kg x 9.8 m/s^2 = 2205N = Fout.   
 
 **Find:**
