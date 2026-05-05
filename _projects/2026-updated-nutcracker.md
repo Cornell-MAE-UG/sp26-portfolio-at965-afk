@@ -7,26 +7,55 @@ technologies: [Mechanical Engineering, Lever Design]
 
 **Nutcracker Design**
 
-**Obective:**
-Design a simple lever-style nutcracker capable of cracking a macadamia nut using a hand. The objective is to determine the required dimensions of the lever system such that a typical human grip force can generate enough output force to crack the nut. The design should use a simple lever mechanism, be hand operated, and provide sufficient mechanical advantage to crack the nut.
+**Given:**
+Initially, the handles were considered in your nutcracker design to be rigid. Now, assume the nutcracker handles are no longer rigid. In fact, they are now best described as beams which bend due to the combined action of the forces from the nut and from theactuator.
 
-**Constraints and Input Parameters:**
 Macadamia nut diameter ≈ 2.5.
 Distance from pivot to nut ≈ 2.5 cm.
 Typical maximum human grip strength: 𝐹in ≈ 400N. This force is applied equally to both handles so 200N. 
 Force required to crack a macadamia nut from literature is 225 kg x 9.8 m/s^2 = 2205N = Fout. 
 
-**Approach:**
-To crack the nut, the nutcracker must generate at least 2205N. Using the definition of mechanical advantage: MA = Fout/Fin = 2205N/400N = 5.5. The lever system must provide approximately 5.5× mechanical advantage.
+**Find:**
+Consider only the components of these forces transverse to your beam:
+a) Find the location of maximum elastic deflection in your handles. State your
+assumptions clearly and describe your analysis.
+b) Choose a “beam” design (cross-section, material) such that the vertical elastic
+deflection is below 2% of its length and is the most mass-efficient possible.
+c) Present your final design in an image or drawing.
 
-Using moment equilibrium about the pivot:
-∑𝑀 = 0 = (200N)(L) = (1102.5N)(2.5cm)
-200L=2756.25
-L = 13cm
+**Actuator**
+Use PA-MC2 Compact Micro Linear Actuator
 
-Where L = handle length
-1102.5N = half the nut force applied to each side
-Therefore the required handle length is approximately 13cm.
+Force: up to 249 N, exceeds required 200 N input
+Stroke: 2–8 inches, sufficient to close the nut gap
+At x = 13 cm from pivot
+
+**Solution**
+
+Loading
+Pivot reaction R:  x = 0, 902.5 N 
+Nut contact: x = 2.5 cm, 1102.5 N 
+Actuator: x = 13 cm, 200 N 
+
+Shear force is constant between load points, changing sign at x = 2.5 cm.
+Setting dy/dx = 0:
+δ_max occurs at x = 4.5cm from pivot (between nut and actuator)
+
+Deflection limit: δ_max < 0.02 × 0.13 = 2.6 mm
+
+Material selected: Aluminum (E = 69 GPa, ρ = 2700 kg/m³)
+Cross-section: Hollow tube 
+
+Required EI from deflection formula (superposition, two point loads):
+EI ≥ 0.0012 N·m² → I ≥ 1.74 × 10⁻¹¹ m⁴
+R ≈ 7.5 mm → OD = 16 mm, ID = 12 mm, wall = 2 mm
+
+I = π(0.008⁴ − 0.006⁴)/4 ≈ 2.20 × 10⁻⁹ m⁴
+EI = 151.8 N·m² >> required 
+δ_max < 2.6 mm 
+
+Mass per handle:
+m = 2700 × π(0.008² − 0.006²) × 0.13 ≈ 31 g
 
 **Diagram of nut cracker design:**
 Pivot located at the hinge. Nut positioned 2.5 cm from the pivot. Human force applied at the handles. Handle length ≈ 13 cm.
@@ -34,7 +63,9 @@ Pivot located at the hinge. Nut positioned 2.5 cm from the pivot. Human force ap
 [Nutcracker diagram](../assets/images/nutcracker-diagram.jpg)
 
 **Discussion:**
-Although the lever provides the required mechanical advantage, the design presents usability concerns. The calculated handle spacing is 13 cm, which may be too wide for the average human hand to grip comfortably.
+The actuator removes the sole dependance on grip strength as the input force to crack the nut. But adding any form of electrical component can complicate the design
 
 **Credits:**
 Macadamia nut force data obtained from literature on nut cracking forces. (https://link.springer.com/article/10.1007/s10071-007-0131-2)
+Actuators
+(https://www.progressiveautomations.com/collections/linear-actuators)
